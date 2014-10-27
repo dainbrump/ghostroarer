@@ -1,7 +1,8 @@
 body { margin-top: 80px; padding-bottom: 60px; }
 .site-masthead { margin-top: -36px; height: 300px; }
 .site-masthead h1 { font-weight: bold; text-shadow: #fafafa 0px 0px 4px; color: #008cba;}
-.post-masthead { margin-top: -36px; height: 180px; }
+.post-masthead { margin-top: -36px; height: 200px; }
 .site-footer { margin-top: 20px; }
 .post-summary { height: 300px;}
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+.author-image img { margin-top: -90px; width: 120px; }
