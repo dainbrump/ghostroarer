@@ -3,17 +3,17 @@
 {{#foreach posts}}
             <div class="col-md-4 post-summary">
                 <article class="panel panel-default">
-                    <header class="post-header panel-heading">
-                        <h2 class="post-title panel-title"><a href="{{url}}">{{{title}}}</a></h2>
+                    <header class="panel-heading">
+                        <h2 class="panel-title"><a href="{{url}}">{{{title}}}</a></h2>
                     </header>
-                    <section class="post-excerpt panel-body">
+                    <section class="panel-body">
                         <p>{{excerpt words="26"}}</p>
                         <a class="read-more" href="{{url}}"> READ MORE &raquo;</a>
                     </section>
-                    <footer class="post-meta panel-footer">
+                    <footer class="panel-footer">
                         {{author}}
                         {{tags prefix=" tagged "}} on
-                        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+                        <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
                     </footer>
                 </article>
             </div>
