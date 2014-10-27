@@ -46,6 +46,12 @@ body {
     height: 300px;
 }
 
+.site-masthead h1 {
+    font-weight: bold;
+    text-shadow: #fafafa 0px 0px 4px;
+    color: #008cba;
+}
+
 .post-masthead {
     margin-top: -36px;
     height: 180px;
