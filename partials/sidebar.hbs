@@ -1,17 +1,25 @@
                             {{#author}}
-                                {{#if image}}
-                                <img class="img-circle img-responsive" src="{{image}}" width="80" alt="Author image" nopin="nopin" /></a>
-                                {{/if}}
                                 <section class="author">
-                                    <h4><a href="{{url}}">{{name}}</a></h4>
-                                    {{#if bio}}
-                                        <p>{{bio}}</p>
-                                    {{else}}
-                                        <p>Read <a href="{{url}}">more posts</a> by this author.</p>
-                                    {{/if}}
-                                    <div class="author-meta">
-                                        {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
-                                        {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            {{#if image}}<img class="img-responsive thumbnail" src="{{image}}" width="80" alt="Author image" nopin="nopin" /></a>{{/if}}
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h4><a href="{{url}}">{{name}}</a></h4>
+                                            {{#if bio}}
+                                                <p>{{bio}}</p>
+                                            {{else}}
+                                                <p>Read <a href="{{url}}">more posts</a> by this author.</p>
+                                            {{/if}}
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="author-meta">
+                                                {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
+                                                {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
+                                            </div>
+                                        </div>
                                     </div>
                                 </section>
                             {{/author}}
