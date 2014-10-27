@@ -37,15 +37,17 @@
 .icon-link:before { content: "\f608"; }
 
 body {
-    margin-top: 50px;
+    margin-top: 80px;
     padding-bottom: 60px;
 }
 
 .site-masthead {
+    margin-top: -18px;
     height: 300px;
 }
 
 .post-masthead {
+    margin-top: -18px;
     height: 180px;
 }
 

@@ -2,10 +2,9 @@
 {{> "navbar"}}
 
     {{#if @blog.cover}}
-    <div class="jumbotron" style="background: url('{{@blog.cover}}') center center no-repeat">
-      <div class="container site-masthead">
-        <h1>{{@blog.description}}</h1>
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+    <div class="jumbotron site-masthead" style="background: url('{{@blog.cover}}') center center no-repeat">
+      <div class="container">
+        <h1 class="text-success">{{@blog.description}}</h1>
       </div>
     </div>
     {{/if}}
