@@ -60,3 +60,9 @@ body {
 .site-footer {
     margin-top: 20px;
 }
+
+.post-summary {
+    height: 300px;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
