@@ -1,0 +1,23 @@
+{{!< default}}
+{{> "navbar"}}
+
+{{#post}}
+    {{#if image}}
+    <div class="jumbotron" style="background: url('{{image}}') center center no-repeat">
+      <div class="container post-masthead"></div>
+    </div>
+    {{/if}}
+    <div id="content" class="container" role="content">
+        <div class="row">
+            <div class="col-md-12">
+                <article class="{{post_class}}">
+                <h1 class="post-title">{{title}}</h1>
+                <section class="post-content">
+                    {{content}}
+                </section>
+                </article>
+            </div>
+        </div>
+    </div>
+
+{{/post}}
